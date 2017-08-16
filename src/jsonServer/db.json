@@ -1,0 +1,22 @@
+{
+  "jobs":[
+    {
+      "id":"1",
+      "company":"adesso",
+      "date":"07.08.2017",
+      "state":"started"
+    },
+    {
+      "id":"2",
+      "company":"DB",
+      "date":"08.08.2017",
+      "state":"ready"
+    },
+    {
+      "id":"3",
+      "company":"Zalando",
+      "date":"01.08.2017",
+      "state":"finished"
+    }
+  ]
+}

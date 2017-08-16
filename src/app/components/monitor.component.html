@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{title}}</title>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Welcome</h1>
+  <h2>Monitor</h2>
+</div>
+
+<div class="container">
+  <h3>Jobs</h3>
+  <table class="table table-striped table-bordered table-hover table-condensed">
+    <tr>
+      <th>JobID</th>
+      <th>Company</th>
+      <th>Date</th>
+      <th>State</th>
+    </tr>
+    <tr *ngFor="let job of jobs">
+      <td>{{job.id}}</td>
+      <td>{{job.company}}</td>
+      <td>{{job.date}}</td>
+      <td>{{job.state}}</td>
+    </tr>
+  </table>
+</div>
+
+</body>
+</html>
