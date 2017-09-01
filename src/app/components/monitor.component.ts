@@ -1,5 +1,5 @@
-import {Component} from "@angular/core";
-import {JobsService} from "../services/jobs.service";
+import {Component} from '@angular/core';
+import {JobsService} from '../services/jobs.service';
 
 @Component({
   selector: 'monitor',
@@ -8,7 +8,7 @@ import {JobsService} from "../services/jobs.service";
 })
 
 export class MonitorComponent {
-  title:'Monitor';
+  title: 'Monitor';
   jobs: Job[];
 
   constructor(private jobsService: JobsService) {

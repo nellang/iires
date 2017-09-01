@@ -1,16 +1,16 @@
-import {ModuleWithProviders} from "@angular/core";
-import {Routes, RouterModule} from "@angular/router";
+import {ModuleWithProviders} from '@angular/core';
+import {Routes, RouterModule} from '@angular/router';
 
-import {APIComponent} from "./components/api.component";
-import {MonitorComponent} from "./components/monitor.component";
+import {APIComponent} from './components/api.component';
+import {MonitorComponent} from './components/monitor.component';
 
 const appRoutes: Routes = [
   {
-    path:'',
+    path: '',
     component: MonitorComponent
   },
   {
-    path:'api',
+    path: 'api',
     component: APIComponent
   }
 ];
